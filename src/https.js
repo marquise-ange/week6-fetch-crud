@@ -1,14 +1,7 @@
-
-// ==========================================
 // 1. API BASE URL
-// ==========================================
-
 const BASE_URL = 'https://jsonplaceholder.typicode.com';
 
-
-// ==========================================
 // 2. REUSABLE HTTP REQUEST FUNCTION
-// ==========================================
 
 async function request(endpoint, options = {}) {
 
@@ -31,10 +24,7 @@ async function request(endpoint, options = {}) {
     return response.json();
 }
 
-
-// ==========================================
 // 3. API METHODS
-// ==========================================
 
 export const api = {
 
